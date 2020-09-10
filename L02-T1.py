@@ -1,0 +1,5 @@
+nimi = input('Anna nimesi: ')
+koko = int(input('Anna kokonaisluku: '))
+desimaali = float(input('Anna desimaaliluku: '))
+tulos = (desimaali**koko)
+print(nimi, 'desimaaliluku', desimaali, 'potenssiin', koko, 'on', tulos)
