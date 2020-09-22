@@ -14,9 +14,9 @@ for numero in range(alaraja, ylaraja + 1):
                 break
         else:
             print(numero, 'on alkuluku.')
-            viimeinen_al = str(numero)
+            viimeinen_al = numero
             alkuluku = alkuluku + 1
 print('Tutkittiin', alkuluku + luku, 'lukua, joista', alkuluku, 'oli alkulukuja.')
-print('Viimeinen löydetty alkuluku oli', viimeinen_al + ('.'))
+print('Viimeinen löydetty alkuluku oli', str(viimeinen_al) + ('.'))
 print('Kiitos ohjelman käytöstä.')
     
